@@ -1,0 +1,78 @@
+#container {
+	width: auto;
+}
+#contents {
+	margin-right: 6px; margin-left: 6px;
+}
+header {
+	height: auto; position: static;
+}
+header h1 {
+	padding: 10px 0px; border-radius: 0px; width: 100%; position: static;
+}
+#main {
+	width: auto; padding-top: 140px; float: none;
+}
+#main h1 {
+	background: none, url("../images/bg1.png") rgb(123, 167, 246); padding: 0px 0px 0px 10px;
+}
+#sub {
+	width: auto; float: none;
+}
+nav#mainmenu ul {
+	left: 0px; top: 90px; width: 100%; height: auto; position: absolute;
+}
+nav#mainmenu ul li {
+	width: 50%; float: left;
+}
+nav#mainmenu ul li a {
+	border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(201, 201, 201); border-radius: 0px; border-image: none; width: auto; margin-bottom: 0px;
+}
+nav#mainmenu ul li:nth-child(2n+1) {
+	border-right-color: rgb(201, 201, 201); border-right-width: 1px; border-right-style: solid; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+nav#mainmenu ul li a:hover {
+	border-style: none none solid; border-bottom-color: rgb(201, 201, 201); border-bottom-width: 1px;
+}
+#main section.list article p {
+	margin-left: 0px;
+}
+#main section.list article figure img {
+	width: 40%; height: auto; margin-right: 5px;
+}
+#main img.wa {
+	width: 100%; height: auto;
+}
+section#new h1.open {
+	background: url("../images/btn_minus.png") no-repeat right, url("../images/bg1.png") rgb(123, 167, 246);
+}
+section#new h1.close {
+	background: url("../images/btn_plus.png") no-repeat right, url("../images/bg1.png") rgb(123, 167, 246);
+}
+#new dl {
+	height: auto; padding-left: 0px; margin-bottom: 1em;
+}
+#new dt {
+	width: auto; float: none;
+}
+#new dd {
+	padding-left: 0px;
+}
+.ta1 {
+	width: 100%;
+}
+.ta1 td {
+	padding: 2px; width: auto;
+}
+.ta1 th {
+	padding: 2px; width: 100px;
+}
+body.sdn #sub {
+	display: none;
+}
+body.sdn #main {
+	padding-top: 33px;
+}
+body.sdn {
+	background: none;
+}

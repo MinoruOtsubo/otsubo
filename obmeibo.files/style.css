@@ -1,0 +1,213 @@
+body {
+	background: url("../images/bg.jpg") no-repeat top rgb(255, 255, 255); font: 14px/2 "ÉÅÉCÉäÉI", Meiryo, "ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro"; margin: 0px; padding: 0px; color: rgb(167, 167, 167); font-size-adjust: none; font-stretch: normal;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+figure {
+	margin: 0px; padding: 0px;
+}
+ul {
+	list-style-type: none;
+}
+img {
+	border: currentColor; border-image: none;
+}
+input {
+	font-size: 1em;
+}
+textarea {
+	font-size: 1em;
+}
+select {
+	font-size: 1em;
+}
+form {
+	margin: 0px;
+}
+table {
+	font-size: 100%; border-collapse: collapse; border-spacing: 0;
+}
+a {
+	color: rgb(167, 167, 167);
+}
+a:hover {
+	color: rgb(129, 129, 129); text-decoration: none;
+}
+#container {
+	width: 990px; margin-right: auto; margin-left: auto;
+}
+header {
+	width: 100%; height: 270px; position: relative;
+}
+header h1 {
+	background: url("../images/bg1.png") rgb(123, 167, 246); padding: 90px 0px; border-radius: 0px 0px 5px 5px; left: 0px; top: 0px; width: 248px; text-align: center; border-right-color: rgba(255, 255, 255, 0.5); border-bottom-color: rgba(255, 255, 255, 0.5); border-left-color: rgba(255, 255, 255, 0.5); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; position: absolute;
+}
+#main {
+	width: 700px; padding-bottom: 30px; float: right;
+}
+#main h1 {
+	background: url("../images/round1.png") no-repeat 10px, url("../images/bg1.png") rgb(123, 167, 246); padding: 3px 0px 3px 40px; border-radius: 5px; border: 1px solid rgba(255, 255, 255, 0.5); border-image: none; color: rgb(255, 255, 255); clear: both; font-size: 100%;
+}
+#main p {
+	padding: 0.5em 10px 1em;
+}
+#sub {
+	width: 250px; padding-bottom: 30px; float: left;
+}
+#sub h1 {
+	padding: 0px 10px; color: rgb(255, 255, 255); font-size: 100%; border-bottom-color: rgb(211, 211, 211); border-bottom-width: 5px; border-bottom-style: solid; background-image: linear-gradient(rgb(151, 185, 246), rgb(123, 167, 246)); background-color: rgb(151, 185, 246);
+}
+#sub .box1 {
+	padding: 10px; border-radius: 5px; border: 1px solid rgb(201, 201, 201); border-image: none; background-image: linear-gradient(rgb(255, 255, 255), rgb(246, 246, 246)); background-color: rgb(255, 255, 255);
+}
+nav#mainmenu ul li a {
+	background: url("../images/arrow1.png") no-repeat 10px rgba(255, 255, 255, 0.7); padding: 5px 0px 5px 35px; border-radius: 5px; border: 1px solid rgb(201, 201, 201); transition:0.5s; border-image: none; width: 213px; text-decoration: none; margin-bottom: 1em; display: block; -webkit-transition: 0.5s;
+}
+nav#mainmenu ul li a:hover {
+	background: url("../images/arrow1.png") no-repeat 12px rgb(247, 244, 204); border: 1px solid rgb(129, 129, 129); border-image: none;
+}
+footer {
+	text-align: center; padding-top: 15px; padding-bottom: 15px; clear: both;
+}
+footer .pr {
+	font-size: 80%; display: block;
+}
+footer a {
+	text-decoration: none;
+}
+#main section.list article {
+	border-radius: 6px; border: 1px solid rgb(201, 201, 201); border-image: none; margin-bottom: 1em; box-shadow: 0px 2px 5px #c9c9c9, inset 0px 0px 2px #fff; background-image: linear-gradient(rgb(255, 255, 255), rgb(246, 246, 246)); -webkit-box-shadow: 0px 2px 5px #c9c9c9, 0px 0px 2px #FFF inset;
+}
+#main section.list article p {
+	padding: 0px; margin-left: 220px;
+}
+#main section.list article figure img {
+	padding: 5px; border: 1px solid rgb(204, 204, 204); border-image: none; vertical-align: bottom; float: left; background-color: rgb(255, 255, 255);
+}
+#main section.list article h1 {
+	background: none; border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(201, 201, 201); padding: 0px 0px 0px 5px; border-radius: 0px; border-image: none; color: rgb(129, 129, 129); font-size: 100%; margin-bottom: 0.5em;
+}
+#main section.list article a {
+	padding: 10px; transition:0.5s; overflow: hidden; text-decoration: none; display: block; -webkit-transition: 0.5s;
+}
+#main section.list article a:hover {
+	background-color: rgb(247, 244, 204);
+}
+#new dl {
+	margin: 5px 10px 0px; height: 150px; overflow: auto;
+}
+#new dt {
+	width: 8em; font-weight: bold; float: left;
+}
+#new dd {
+	padding-left: 8em; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#new dd img {
+	vertical-align: middle;
+}
+.ta1 {
+	width: 100%;
+}
+.ta1 {
+	border: 1px solid rgb(201, 201, 201); border-image: none;
+}
+.ta1 td {
+	border: 1px solid rgb(201, 201, 201); border-image: none;
+}
+.ta1 th {
+	border: 1px solid rgb(201, 201, 201); border-image: none;
+}
+.ta1 td {
+	padding: 10px;
+}
+.ta1 th {
+	background: rgb(246, 246, 246); padding: 10px; width: 200px; text-align: center;
+}
+.ta1 th.tamidashi {
+	background: rgb(215, 228, 252); width: auto; text-align: left;
+}
+.ta1 caption {
+	padding: 10px; text-align: left; font-weight: bold; border-top-color: rgb(201, 201, 201); border-right-color: rgb(201, 201, 201); border-left-color: rgb(201, 201, 201); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid; background-image: linear-gradient(rgb(247, 246, 227), rgb(247, 244, 204)); background-color: rgb(247, 244, 204);
+}
+#pagetop {
+	text-align: right; clear: both;
+}
+#pagetop a {
+	border-radius: 10px; border: 1px solid rgb(201, 201, 201); border-image: none; width: 14em; text-align: center; letter-spacing: 0.1em; font-size: 10px; text-decoration: none; display: inline-block;
+}
+#pagetop a:hover {
+	border: 1px solid rgb(129, 129, 129); border-image: none;
+}
+.look {
+	background: rgb(232, 232, 232); color: rgb(129, 129, 129);
+}
+.mb1em {
+	margin-bottom: 1em;
+}
+.clear {
+	clear: both;
+}
+ul.disc {
+	padding: 0em 25px 1em;
+}
+.color1 {
+	color: rgb(129, 129, 129);
+}
+.pr {
+	font-size: 10px;
+}
+.btn {
+	font-size: 13px;
+}
+.wl {
+	width: 96%;
+}
+.ws {
+	width: 50%;
+}
+.c {
+	text-align: center;
+}
+figcaption {
+	font-size: 11px;
+}
+.mini1 {
+	line-height: 1.6; font-size: 12px;
+}

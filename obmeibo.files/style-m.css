@@ -1,0 +1,48 @@
+#container {
+	width: auto;
+}
+#contents {
+	margin-right: 6px; margin-left: 6px;
+}
+header {
+	height: auto; position: static;
+}
+header h1 {
+	padding: 30px 0px; border-radius: 0px; width: 100%; position: static;
+}
+#main {
+	width: auto; padding-top: 150px; float: none;
+}
+#sub {
+	width: auto; float: none;
+}
+nav#mainmenu ul {
+	left: 0px; top: 130px; width: 100%; height: auto; position: absolute;
+}
+nav#mainmenu ul li {
+	width: 50%; float: left;
+}
+nav#mainmenu ul li a {
+	border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(201, 201, 201); border-radius: 0px; border-image: none; width: auto; margin-bottom: 0px;
+}
+nav#mainmenu ul li:nth-child(2n+1) {
+	border-right-color: rgb(201, 201, 201); border-right-width: 1px; border-right-style: solid; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+nav#mainmenu ul li a:hover {
+	border-style: none none solid; border-bottom-color: rgb(201, 201, 201); border-bottom-width: 1px;
+}
+#main img.wa {
+	width: 100%; height: auto;
+}
+.ta1 {
+	width: 100%;
+}
+body.sdn #sub {
+	display: none;
+}
+body.sdn #main {
+	padding-top: 33px;
+}
+body.sdn {
+	background: none;
+}
